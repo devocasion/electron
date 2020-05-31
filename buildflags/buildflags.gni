@@ -3,7 +3,7 @@
 # found in the LICENSE file.
 
 declare_args() {
-  enable_desktop_capturer = true
+  enable_desktop_capturer = false  # FIXME
 
   # Allow running Electron as a node binary.
   enable_run_as_node = true
